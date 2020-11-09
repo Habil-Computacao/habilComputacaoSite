@@ -1,0 +1,10 @@
+*{
+  font-family: sans-serif;
+}
+
+#root{
+  --color-light: #fafafa;
+  --color-dark: #121212;
+
+  color: var(--color-dark);
+}

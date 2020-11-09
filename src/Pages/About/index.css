@@ -1,0 +1,11 @@
+.title{
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.inline-link{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
