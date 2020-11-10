@@ -1,3 +1,8 @@
 .fixed-bottom{
   background-color: var(--color-dark);
 }
+
+#footerStyle{
+  margin: 0;
+  text-align: center;
+}

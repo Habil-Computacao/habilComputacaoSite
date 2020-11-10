@@ -7,7 +7,7 @@ export default class Footer extends Component {
     return (
       <MDBFooter className="footer">
         <MDBContainer fluid className="fixed-bottom text-md-center">
-          &copy; {new Date().getFullYear()} Copyright: habilcomputacao@gmail.com
+          <p id="footerStyle">&copy; {new Date().getFullYear()} - habilcomputacao@gmail.com</p>
         </MDBContainer>
       </MDBFooter>
     )

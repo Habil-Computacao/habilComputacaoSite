@@ -1,0 +1,9 @@
+.overflow{
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 75vh;
+  
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}

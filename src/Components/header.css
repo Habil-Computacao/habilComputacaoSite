@@ -2,9 +2,14 @@ header{
   background-color:  var(--color-dark);
 }
 
-#logo{
+#leftLogo{
   position: relative;
   width: 100px;
+  top: 0px;
+}
+
+#rightLogo{
+  width: 90px;
   top: 0px;
 }
 

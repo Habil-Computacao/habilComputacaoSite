@@ -3,6 +3,12 @@
     text-align: center;
 }
 
+.foto{
+    width: 200px;
+    border: 1px solid #12121270;
+    object-fit: fill;
+}
+
 .inline-link{
     text-decoration: none;
     margin: 0;
