@@ -9,7 +9,7 @@ export default class PortfolioItem extends Component {
         <MDBRow>
           <MDBCol size='12' lg='6' className='my-3'>
             <MDBMedia left>
-              <div>
+              <div onClick={() => this.props.onClick(this.props.image, this.props.title)}>
                 <MDBView>
                   <MDBMedia
                     object

@@ -1,7 +1,6 @@
 import { MDBRow, MDBCol, MDBInput, MDBBtn, MDBIcon } from 'mdbreact'
 import React, { Component } from 'react'
 import { Prompt } from 'react-router-dom';
-import './index.css'
 
 export default class Contact extends Component {
   constructor(props){
@@ -34,17 +33,24 @@ export default class Contact extends Component {
 }
 
   sendEmail(event){
-    const subject = this.state.subject;
-    const body = `${this.state.name} - ${this.state.email}%0a%0a${this.state.body}`;
-    window.open(`mailto:habilcomputacao@gmail.com?subject=${subject}&body=${body}`, '_self');
-    event.preventDefault();
+    this.setState({ isFormHalfFull: false }, () => {
+      const subject = this.state.subject;
+      const body = `${this.state.name} - ${this.state.email}%0a%0a${this.state.body}`;
+      window.open(`mailto:habilcomputacao@gmail.com?subject=${subject}&body=${body}`, '_self');
+      event.preventDefault();
+    });
   }
 
   handleChange(event){
     const [id, value] = [event.target.id, event.target.value];
-    this.setState({ [id]: value });
-    if(this.state.name !== '' || this.state.email !== '' || this.state.subject !== '' || this.state.body !== '') this.setState({ isFormHalfFull: true });
-    else this.setState({ isFormHalfFull: false });
+    this.setState({ [id]: value }, this.verifyFormFill);  
+  }
+
+  verifyFormFill(){
+    if(this.state.name !== '' || this.state.email !== '' || this.state.subject !== '' || this.state.body !== '')
+      this.setState({ isFormHalfFull: true });
+    else
+      this.setState({ isFormHalfFull: false });
   }
   
   render() {

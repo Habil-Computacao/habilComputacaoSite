@@ -15,7 +15,7 @@ export default class Header extends Component {
     return (
       <header>
         <MDBContainer fluid>
-          <MDBNavbar expand="lg" className='z-depth-0'>
+          <MDBNavbar expand="md" className='z-depth-0'>
 
             <MDBNavbarBrand className='w-auto'>
               <MDBMedia>
@@ -25,7 +25,7 @@ export default class Header extends Component {
               </MDBMedia>
             </MDBNavbarBrand>
 
-            <MDBNavbarToggler onClick={this.toggleCollapse} className='grey lighten-5' />
+            <MDBNavbarToggler image={`${process.env.PUBLIC_URL}/img/hamburger-menu-icon.png`} onClick={this.toggleCollapse} />
 
             <MDBCollapse isOpen={this.state.isOpen} navbar>
 
