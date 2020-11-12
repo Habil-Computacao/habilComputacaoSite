@@ -45,7 +45,7 @@ export default class About extends Component {
                         <MDBMedia heading>
                           Gabriel dos Reis
                         </MDBMedia>
-                        O outro, estudante de Análise e Desenvolvimento de Sistemas no Instituto Federal de Ciência e Tecnologia da Bahia, tem experiência em suporte de campo em empresas locais, além de um histórico de contribuição para projetos de código aberto. Atualmente, está atuando em um projeto do Instituto Nacional de Pesquisas Espaciais.
+                        Estudante de Análise e Desenvolvimento de Sistemas no Instituto Federal de Ciência e Tecnologia da Bahia, tem experiência em suporte de campo em empresas locais, além de um histórico de contribuição para projetos de código aberto. Atualmente, está atuando em um projeto que envolve geolocalização no Instituto Nacional de Pesquisas Espaciais.
                       </MDBMedia>
                     </MDBRow>
                   </MDBCol>
