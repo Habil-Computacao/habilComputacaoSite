@@ -16,7 +16,7 @@ export default class About extends Component {
                 <MDBRow className='my-5'>
                   <MDBCol lg='3' size='12'>
                     <MDBRow center>
-                      <MDBMedia object className="foto my-3" src={process.env.PUBLIC_URL + "./img/gabriel.png"} alt="Foto de Davi Rios"/>
+                      <MDBMedia object className="foto my-3" src={process.env.PUBLIC_URL + "./img/davi.jpeg"} alt="Foto de Davi Rios"/>
                     </MDBRow>
                   </MDBCol>
                   <MDBCol lg='9' size='12'>
