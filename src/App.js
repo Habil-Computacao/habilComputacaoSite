@@ -9,7 +9,7 @@ import Pages from './Pages/Pages';
 class App extends React.Component {
   render(){
     return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename={process.env.PUBLIC_URL + '/#/'}>
         <div className="App">
           <Header/>
           <Switch>
