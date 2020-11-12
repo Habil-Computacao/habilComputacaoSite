@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/habilComputacaoSite/static/css/main.facf0f64.chunk.css",
+    "main.js": "/habilComputacaoSite/static/js/main.2bd5edbc.chunk.js",
+    "main.js.map": "/habilComputacaoSite/static/js/main.2bd5edbc.chunk.js.map",
+    "runtime-main.js": "/habilComputacaoSite/static/js/runtime-main.ca6bc74b.js",
+    "runtime-main.js.map": "/habilComputacaoSite/static/js/runtime-main.ca6bc74b.js.map",
+    "static/css/2.de82ba47.chunk.css": "/habilComputacaoSite/static/css/2.de82ba47.chunk.css",
+    "static/js/2.1fdf7dd5.chunk.js": "/habilComputacaoSite/static/js/2.1fdf7dd5.chunk.js",
+    "static/js/2.1fdf7dd5.chunk.js.map": "/habilComputacaoSite/static/js/2.1fdf7dd5.chunk.js.map",
+    "index.html": "/habilComputacaoSite/index.html",
+    "static/css/2.de82ba47.chunk.css.map": "/habilComputacaoSite/static/css/2.de82ba47.chunk.css.map",
+    "static/css/main.facf0f64.chunk.css.map": "/habilComputacaoSite/static/css/main.facf0f64.chunk.css.map",
+    "static/js/2.1fdf7dd5.chunk.js.LICENSE.txt": "/habilComputacaoSite/static/js/2.1fdf7dd5.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/habilComputacaoSite/static/media/arrow_right.0897f985.svg",
+    "static/media/all.min.css": "/habilComputacaoSite/static/media/fa-solid-900.46fdbd2d.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca6bc74b.js",
+    "static/css/2.de82ba47.chunk.css",
+    "static/js/2.1fdf7dd5.chunk.js",
+    "static/css/main.facf0f64.chunk.css",
+    "static/js/main.2bd5edbc.chunk.js"
+  ]
+}
