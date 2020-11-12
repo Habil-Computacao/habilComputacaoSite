@@ -20,7 +20,7 @@ export default class Header extends Component {
             <MDBNavbarBrand className='w-auto'>
               <MDBMedia>
                 <MDBNavLink to='/'>
-                  <MDBMedia object id="leftLogo" src={process.env.PUBLIC_URL + "./logo192.jpg"} alt="Logo da Hábil Computação" />
+                  <MDBMedia object id="leftLogo" src={process.env.PUBLIC_URL + "/logo192.jpg"} alt="Logo da Hábil Computação" />
                 </MDBNavLink>
               </MDBMedia>
             </MDBNavbarBrand>
@@ -48,7 +48,7 @@ export default class Header extends Component {
                 <MDBNavItem className='mt-4 mb-2'>
                   <MDBMedia>
                     <a href="https://www.99freelas.com.br/user/habil-computacao" target='_blank' rel='noreferrer'>
-                      <MDBMedia object id="rightLogo" className='rounded' src={process.env.PUBLIC_URL + "./img/99freelas.png"} alt="Logo da 99Freelas"  />
+                      <MDBMedia object id="rightLogo" className='rounded' src={process.env.PUBLIC_URL + "/img/99freelas.png"} alt="Logo da 99Freelas"  />
                     </a>
                   </MDBMedia>
                 </MDBNavItem>

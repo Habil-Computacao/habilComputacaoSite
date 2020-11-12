@@ -7,6 +7,7 @@ import Home from './Home';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import About from './About';
+import NotFound from './NotFound';
 
 export default class Pages extends Component {
   render() {
@@ -17,6 +18,7 @@ export default class Pages extends Component {
           <Route path='/portfolio' component={Portfolio} />
           <Route path='/contact' component={Contact} />
           <Route path='/about' component={About} />
+          <Route path='*' component={NotFound} />
         </MDBContainer>
       </MDBContainer>
     )
